@@ -1,0 +1,481 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "test-yunhua",
+    "children" : [ {
+      "name" : "8344-MainThread",
+      "children" : [ {
+        "name" : "调用的函数：test_getDayAlarm",
+        "uid" : "a4dccfe9746d9c42",
+        "parentUid" : "d08c19453b44953c54206193ec4e5190",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617785535585,
+          "stop" : 1617785535602,
+          "duration" : 17
+        },
+        "flaky" : false,
+        "parameters" : [ "{'pageIndex': 1, 'pageSize': 18, 'alertLeves': [], 'cameraIds': ['1', '9'], 'algorithmIds': [], 'startTime': '', 'endTime': '', 'isOnline': True}", "200.0", "{'Content-Type': 'application/json'}", "'http://192.168.1.100:8889/api/sysAlarmRecord/getAlarmRecordConditionPageList'" ]
+      }, {
+        "name" : "调用的函数：test_getHistoryAlarm",
+        "uid" : "b40b1331bed77fb4",
+        "parentUid" : "d08c19453b44953c54206193ec4e5190",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617785535201,
+          "stop" : 1617785535215,
+          "duration" : 14
+        },
+        "flaky" : false,
+        "parameters" : [ "{'pageIndex': 1, 'pageSize': 18, 'alertLeves': [], 'cameraIds': ['1', '9'], 'algorithmIds': [], 'startTime': '', 'endTime': '', 'isOnline': True}", "200.0", "{'Content-Type': 'application/json'}", "'http://192.168.1.100:8889/api/sysAlarmRecord/getAlarmRecordConditionPageList'" ]
+      }, {
+        "name" : "调用的函数：test_getUserList",
+        "uid" : "390d06c6674e8f72",
+        "parentUid" : "d08c19453b44953c54206193ec4e5190",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617785535890,
+          "stop" : 1617785535908,
+          "duration" : 18
+        },
+        "flaky" : false,
+        "parameters" : [ "{'pageIndex': 2, 'pageSize': 10}", "200.0", "{'Content-Type': 'application/json'}", "'http://192.168.1.100:8889/api/user/list'" ]
+      }, {
+        "name" : "调用的函数：test_getHistoryAlarm",
+        "uid" : "7a72b81d67a5cb75",
+        "parentUid" : "d08c19453b44953c54206193ec4e5190",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617785534923,
+          "stop" : 1617785534947,
+          "duration" : 24
+        },
+        "flaky" : false,
+        "parameters" : [ "{'pageIndex': 1, 'pageSize': 18, 'alertLeves': ['一级'], 'cameraIds': ['-1', '5f6c453ba4874d59bec26df3311df47f'], 'algorithmIds': [2, 9], 'startTime': '2021-03-03 00:00:00', 'endTime': '2021-03-12 23:59:59', 'isOnline': True}", "200.0", "{'Content-Type': 'application/json'}", "'http://192.168.1.100:8889/api/sysAlarmRecord/getAlarmRecordConditionPageList'" ]
+      }, {
+        "name" : "调用的函数：test_delUser",
+        "uid" : "f99e9f7ba72f6e61",
+        "parentUid" : "d08c19453b44953c54206193ec4e5190",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617785535986,
+          "stop" : 1617785536027,
+          "duration" : 41
+        },
+        "flaky" : false,
+        "parameters" : [ "{}", "200.0", "{'Content-Type': 'application/json'}", "'http://192.168.1.100:8889/api/user/remove/'" ]
+      }, {
+        "name" : "调用的函数：test_cameraCount",
+        "uid" : "beb16af0352f6f31",
+        "parentUid" : "d08c19453b44953c54206193ec4e5190",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617785535661,
+          "stop" : 1617785535692,
+          "duration" : 31
+        },
+        "flaky" : false,
+        "parameters" : [ "200.0", "'http://192.168.1.100:8889/api/sysCamera/getSysCameraCount'" ]
+      }, {
+        "name" : "调用的函数：test_addUser",
+        "uid" : "5627828963160d4f",
+        "parentUid" : "d08c19453b44953c54206193ec4e5190",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617785535816,
+          "stop" : 1617785535848,
+          "duration" : 32
+        },
+        "flaky" : false,
+        "parameters" : [ "{'userName': ''}", "200.0", "{'Content-Type': 'application/json'}", "'http://192.168.1.100:8889/api/user/add'" ]
+      }, {
+        "name" : "调用的函数：test_getDayAlarm",
+        "uid" : "638eec372654856",
+        "parentUid" : "d08c19453b44953c54206193ec4e5190",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617785535320,
+          "stop" : 1617785535346,
+          "duration" : 26
+        },
+        "flaky" : false,
+        "parameters" : [ "{'pageIndex': 1, 'pageSize': 18, 'alertLeves': ['一级'], 'cameraIds': ['-1', '5f6c453ba4874d59bec26df3311df47f'], 'algorithmIds': [2, 9], 'startTime': '2021-03-03 00:00:00', 'endTime': '2021-03-12 23:59:59', 'isOnline': True}", "200.0", "{'Content-Type': 'application/json'}", "'http://192.168.1.100:8889/api/sysAlarmRecord/getAlarmRecordConditionPageList'" ]
+      }, {
+        "name" : "调用的函数：test_getHistoryAlarm",
+        "uid" : "3e00cf1884fc6478",
+        "parentUid" : "d08c19453b44953c54206193ec4e5190",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617785534976,
+          "stop" : 1617785534991,
+          "duration" : 15
+        },
+        "flaky" : false,
+        "parameters" : [ "{'pageIndex': 1, 'pageSize': 18, 'alertLeves': [], 'cameraIds': ['5f6c453ba4874d59bec26df3311df47f'], 'algorithmIds': [], 'startTime': '', 'endTime': '', 'isOnline': True}", "200.0", "{'Content-Type': 'application/json'}", "'http://192.168.1.100:8889/api/sysAlarmRecord/getAlarmRecordConditionPageList'" ]
+      }, {
+        "name" : "调用的函数：test_addUser",
+        "uid" : "26edaec5cbfe7cc0",
+        "parentUid" : "d08c19453b44953c54206193ec4e5190",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617785535781,
+          "stop" : 1617785535810,
+          "duration" : 29
+        },
+        "flaky" : false,
+        "parameters" : [ "{'userName': 'test'}", "200.0", "{'Content-Type': 'application/json'}", "'http://192.168.1.100:8889/api/user/add'" ]
+      }, {
+        "name" : "调用的函数：test_getHistoryAlarm",
+        "uid" : "f47235a824ff9d30",
+        "parentUid" : "d08c19453b44953c54206193ec4e5190",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617785535021,
+          "stop" : 1617785535075,
+          "duration" : 54
+        },
+        "flaky" : false,
+        "parameters" : [ "{'pageIndex': 1, 'pageSize': 18, 'alertLeves': [], 'cameraIds': [], 'algorithmIds': [], 'startTime': '2021-01-12 00:00:00', 'endTime': '2021-04-12 00:00:00', 'isOnline': True}", "200.0", "{'Content-Type': 'application/json'}", "'http://192.168.1.100:8889/api/sysAlarmRecord/getAlarmRecordConditionPageList'" ]
+      }, {
+        "name" : "调用的函数：test_getDayAlarm",
+        "uid" : "2940a8b7c2b14db3",
+        "parentUid" : "d08c19453b44953c54206193ec4e5190",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617785535501,
+          "stop" : 1617785535543,
+          "duration" : 42
+        },
+        "flaky" : false,
+        "parameters" : [ "{'pageIndex': 1, 'pageSize': 18, 'alertLeves': [], 'cameraIds': [], 'algorithmIds': [], 'startTime': '2021-03-12 00:00:00', 'endTime': '2021-03-12 23:59:59', 'isOnline': True}", "200.0", "{'Content-Type': 'application/json'}", "'http://192.168.1.100:8889/api/sysAlarmRecord/getAlarmRecordConditionPageList'" ]
+      }, {
+        "name" : "调用的函数：test_getHistoryAlarm",
+        "uid" : "7330ea6cc6251b77",
+        "parentUid" : "d08c19453b44953c54206193ec4e5190",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617785535221,
+          "stop" : 1617785535241,
+          "duration" : 20
+        },
+        "flaky" : false,
+        "parameters" : [ "{'pageIndex': 1, 'pageSize': 18, 'alertLeves': [], 'cameraIds': [], 'algorithmIds': [2, 9], 'startTime': '', 'endTime': '', 'isOnline': True}", "200.0", "{'Content-Type': 'application/json'}", "'http://192.168.1.100:8889/api/sysAlarmRecord/getAlarmRecordConditionPageList'" ]
+      }, {
+        "name" : "调用的函数：test_getUserList",
+        "uid" : "5dc460d1ef1be696",
+        "parentUid" : "d08c19453b44953c54206193ec4e5190",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617785535915,
+          "stop" : 1617785535928,
+          "duration" : 13
+        },
+        "flaky" : false,
+        "parameters" : [ "{'pageIndex': '', 'pageSize': 10}", "200.0", "{'Content-Type': 'application/json'}", "'http://192.168.1.100:8889/api/user/list'" ]
+      }, {
+        "name" : "调用的函数：test_getDayAlarm",
+        "uid" : "b497d1a8d57cf9ea",
+        "parentUid" : "d08c19453b44953c54206193ec4e5190",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617785535378,
+          "stop" : 1617785535395,
+          "duration" : 17
+        },
+        "flaky" : false,
+        "parameters" : [ "{'pageIndex': 1, 'pageSize': 18, 'alertLeves': [], 'cameraIds': ['5f6c453ba4874d59bec26df3311df47f'], 'algorithmIds': [], 'startTime': '', 'endTime': '', 'isOnline': True}", "200.0", "{'Content-Type': 'application/json'}", "'http://192.168.1.100:8889/api/sysAlarmRecord/getAlarmRecordConditionPageList'" ]
+      }, {
+        "name" : "调用的函数：test_cameraDayCount",
+        "uid" : "3fcc3211900db101",
+        "parentUid" : "d08c19453b44953c54206193ec4e5190",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617785535715,
+          "stop" : 1617785535727,
+          "duration" : 12
+        },
+        "flaky" : false,
+        "parameters" : [ "200.0", "'http://192.168.1.100:8889/api/sysCamera/getSysCameraDayCount'" ]
+      }, {
+        "name" : "调用的函数：test_getHistoryAlarm",
+        "uid" : "91400b593ae88277",
+        "parentUid" : "d08c19453b44953c54206193ec4e5190",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617785534954,
+          "stop" : 1617785534970,
+          "duration" : 16
+        },
+        "flaky" : false,
+        "parameters" : [ "{'pageIndex': 1, 'pageSize': 18, 'alertLeves': ['一级'], 'cameraIds': [], 'algorithmIds': [], 'startTime': '', 'endTime': '', 'isOnline': True}", "200.0", "{'Content-Type': 'application/json'}", "'http://192.168.1.100:8889/api/sysAlarmRecord/getAlarmRecordConditionPageList'" ]
+      }, {
+        "name" : "调用的函数：test_addUser",
+        "uid" : "68f6a18b15511767",
+        "parentUid" : "d08c19453b44953c54206193ec4e5190",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617785535751,
+          "stop" : 1617785535775,
+          "duration" : 24
+        },
+        "flaky" : false,
+        "parameters" : [ "{'userName': 'test', 'address': 'test备注', 'status': 1}", "200.0", "{'Content-Type': 'application/json'}", "'http://192.168.1.100:8889/api/user/add'" ]
+      }, {
+        "name" : "调用的函数：test_getHistoryAlarm",
+        "uid" : "c5bde392947231e1",
+        "parentUid" : "d08c19453b44953c54206193ec4e5190",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617785534873,
+          "stop" : 1617785534916,
+          "duration" : 43
+        },
+        "flaky" : false,
+        "parameters" : [ "{'pageIndex': 1, 'pageSize': 18, 'isOnline': True}", "200.0", "{'Content-Type': 'application/json'}", "'http://192.168.1.100:8889/api/sysAlarmRecord/getAlarmRecordConditionPageList'" ]
+      }, {
+        "name" : "调用的函数：test_getUserList",
+        "uid" : "5e5d4201c28a7945",
+        "parentUid" : "d08c19453b44953c54206193ec4e5190",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617785535934,
+          "stop" : 1617785535948,
+          "duration" : 14
+        },
+        "flaky" : false,
+        "parameters" : [ "{'pageIndex': 1, 'pageSize': ''}", "200.0", "{'Content-Type': 'application/json'}", "'http://192.168.1.100:8889/api/user/list'" ]
+      }, {
+        "name" : "调用的函数：test_edgeCount",
+        "uid" : "d8ea15fee616decb",
+        "parentUid" : "d08c19453b44953c54206193ec4e5190",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617785535698,
+          "stop" : 1617785535710,
+          "duration" : 12
+        },
+        "flaky" : false,
+        "parameters" : [ "200.0", "'http://192.168.1.100:8889/api/sysEdge/getSysEdgeCount'" ]
+      }, {
+        "name" : "调用的函数：test_updateUser",
+        "uid" : "30f453524bbcc34d",
+        "parentUid" : "d08c19453b44953c54206193ec4e5190",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617785536063,
+          "stop" : 1617785536140,
+          "duration" : 77
+        },
+        "flaky" : false,
+        "parameters" : [ "{'id': '95', 'userName': '11', 'address': 'test000', 'status': 4}", "200.0", "{'Content-Type': 'application/json'}", "''", "'http://192.168.1.100:8889/api/user/update'" ]
+      }, {
+        "name" : "调用的函数：test_getUserList",
+        "uid" : "d973ec3e023a2600",
+        "parentUid" : "d08c19453b44953c54206193ec4e5190",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617785535954,
+          "stop" : 1617785535980,
+          "duration" : 26
+        },
+        "flaky" : false,
+        "parameters" : [ "{'pageIndex': '', 'pageSize': ''}", "200.0", "{'Content-Type': 'application/json'}", "'http://192.168.1.100:8889/api/user/list'" ]
+      }, {
+        "name" : "调用的函数：test_videoUpload",
+        "uid" : "1a254a6252902256",
+        "parentUid" : "d08c19453b44953c54206193ec4e5190",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617785536346,
+          "stop" : 1617785536373,
+          "duration" : 27
+        },
+        "flaky" : false,
+        "parameters" : [ "{'type': 'video'}", "200.0", "{'file': \"('testJiTui', open('E:\\\\testJiTui.mp4', 'rb'), 'video/mp4')\"}", "'http://192.168.1.100:8889/api/upload'" ]
+      }, {
+        "name" : "调用的函数：test_delUser",
+        "uid" : "6a416e470e5d46f3",
+        "parentUid" : "d08c19453b44953c54206193ec4e5190",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617785536034,
+          "stop" : 1617785536056,
+          "duration" : 22
+        },
+        "flaky" : false,
+        "parameters" : [ "{}", "200.0", "{'Content-Type': 'application/json'}", "'http://192.168.1.100:8889/api/user/remove/99999999'" ]
+      }, {
+        "name" : "调用的函数：test_getDayAlarm",
+        "uid" : "62da14bb1ffdeaa1",
+        "parentUid" : "d08c19453b44953c54206193ec4e5190",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617785535609,
+          "stop" : 1617785535655,
+          "duration" : 46
+        },
+        "flaky" : false,
+        "parameters" : [ "{'pageIndex': 1, 'pageSize': 18, 'alertLeves': [], 'cameraIds': [], 'algorithmIds': [2, 9], 'startTime': '', 'endTime': '', 'isOnline': True}", "200.0", "{'Content-Type': 'application/json'}", "'http://192.168.1.100:8889/api/sysAlarmRecord/getAlarmRecordConditionPageList'" ]
+      }, {
+        "name" : "调用的函数：test_updateUser",
+        "uid" : "4d4242b9def228c5",
+        "parentUid" : "d08c19453b44953c54206193ec4e5190",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617785536321,
+          "stop" : 1617785536339,
+          "duration" : 18
+        },
+        "flaky" : false,
+        "parameters" : [ "{'id': '0', 'userName': '11', 'address': 'test000', 'status': 4}", "200.0", "{'Content-Type': 'application/json'}", "'id'", "'http://192.168.1.100:8889/api/user/update'" ]
+      }, {
+        "name" : "调用的函数：test_getDayAlarm",
+        "uid" : "e5d3cd6d2f4b430d",
+        "parentUid" : "d08c19453b44953c54206193ec4e5190",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617785535248,
+          "stop" : 1617785535314,
+          "duration" : 66
+        },
+        "flaky" : false,
+        "parameters" : [ "{'pageIndex': 1, 'pageSize': 18, 'isOnline': True}", "200.0", "{'Content-Type': 'application/json'}", "'http://192.168.1.100:8889/api/sysAlarmRecord/getAlarmRecordConditionPageList'" ]
+      }, {
+        "name" : "调用的函数：test_updateUser",
+        "uid" : "c7d2d76935562dac",
+        "parentUid" : "d08c19453b44953c54206193ec4e5190",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617785536223,
+          "stop" : 1617785536313,
+          "duration" : 90
+        },
+        "flaky" : false,
+        "parameters" : [ "{'id': '95', 'userName': ''}", "200.0", "{'Content-Type': 'application/json'}", "'userName'", "'http://192.168.1.100:8889/api/user/update'" ]
+      }, {
+        "name" : "调用的函数：test_updateUser",
+        "uid" : "65877a0a3c22af40",
+        "parentUid" : "d08c19453b44953c54206193ec4e5190",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617785536148,
+          "stop" : 1617785536215,
+          "duration" : 67
+        },
+        "flaky" : false,
+        "parameters" : [ "{'id': '95', 'userName': '123'}", "200.0", "{'Content-Type': 'application/json'}", "'userName'", "'http://192.168.1.100:8889/api/user/update'" ]
+      }, {
+        "name" : "调用的函数：test_getDayAlarm",
+        "uid" : "49ce5a82d576c926",
+        "parentUid" : "d08c19453b44953c54206193ec4e5190",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617785535352,
+          "stop" : 1617785535371,
+          "duration" : 19
+        },
+        "flaky" : false,
+        "parameters" : [ "{'pageIndex': 1, 'pageSize': 18, 'alertLeves': ['一级'], 'cameraIds': [], 'algorithmIds': [], 'startTime': '', 'endTime': '', 'isOnline': True}", "200.0", "{'Content-Type': 'application/json'}", "'http://192.168.1.100:8889/api/sysAlarmRecord/getAlarmRecordConditionPageList'" ]
+      }, {
+        "name" : "调用的函数：test_getHistoryAlarm",
+        "uid" : "ad407f713aadf6b3",
+        "parentUid" : "d08c19453b44953c54206193ec4e5190",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617785535082,
+          "stop" : 1617785535168,
+          "duration" : 86
+        },
+        "flaky" : false,
+        "parameters" : [ "{'pageIndex': 1, 'pageSize': 18, 'alertLeves': [], 'cameraIds': [], 'algorithmIds': [], 'startTime': '2021-03-12 00:00:00', 'endTime': '2021-03-12 23:59:59', 'isOnline': True}", "200.0", "{'Content-Type': 'application/json'}", "'http://192.168.1.100:8889/api/sysAlarmRecord/getAlarmRecordConditionPageList'" ]
+      }, {
+        "name" : "调用的函数：test_alarmDayCount",
+        "uid" : "c8dc1eec37caaab0",
+        "parentUid" : "d08c19453b44953c54206193ec4e5190",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617785535733,
+          "stop" : 1617785535745,
+          "duration" : 12
+        },
+        "flaky" : false,
+        "parameters" : [ "200.0", "'http://192.168.1.100:8889/api/sysCamera/getSysCameraDayCount'" ]
+      }, {
+        "name" : "调用的函数：test_getDayAlarm",
+        "uid" : "b14657ef4111c4ef",
+        "parentUid" : "d08c19453b44953c54206193ec4e5190",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617785535434,
+          "stop" : 1617785535494,
+          "duration" : 60
+        },
+        "flaky" : false,
+        "parameters" : [ "{'pageIndex': 1, 'pageSize': 18, 'alertLeves': [], 'cameraIds': [], 'algorithmIds': [], 'startTime': '2021-01-12 00:00:00', 'endTime': '2021-04-12 00:00:00', 'isOnline': True}", "200.0", "{'Content-Type': 'application/json'}", "'http://192.168.1.100:8889/api/sysAlarmRecord/getAlarmRecordConditionPageList'" ]
+      }, {
+        "name" : "调用的函数：test_addUser",
+        "uid" : "e0d09db0dbb44592",
+        "parentUid" : "d08c19453b44953c54206193ec4e5190",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617785535854,
+          "stop" : 1617785535884,
+          "duration" : 30
+        },
+        "flaky" : false,
+        "parameters" : [ "{'userName': 'test001号'}", "200.0", "{'Content-Type': 'application/json'}", "'http://192.168.1.100:8889/api/user/add'" ]
+      }, {
+        "name" : "调用的函数：test_getHistoryAlarm",
+        "uid" : "98b332d63a7cd136",
+        "parentUid" : "d08c19453b44953c54206193ec4e5190",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617785534998,
+          "stop" : 1617785535015,
+          "duration" : 17
+        },
+        "flaky" : false,
+        "parameters" : [ "{'pageIndex': 1, 'pageSize': 18, 'alertLeves': [], 'cameraIds': [], 'algorithmIds': [1], 'startTime': '', 'endTime': '', 'isOnline': True}", "200.0", "{'Content-Type': 'application/json'}", "'http://192.168.1.100:8889/api/sysAlarmRecord/getAlarmRecordConditionPageList'" ]
+      }, {
+        "name" : "调用的函数：test_getDayAlarm",
+        "uid" : "ed0a98991bcc4341",
+        "parentUid" : "d08c19453b44953c54206193ec4e5190",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617785535402,
+          "stop" : 1617785535427,
+          "duration" : 25
+        },
+        "flaky" : false,
+        "parameters" : [ "{'pageIndex': 1, 'pageSize': 18, 'alertLeves': [], 'cameraIds': [], 'algorithmIds': [1], 'startTime': '', 'endTime': '', 'isOnline': True}", "200.0", "{'Content-Type': 'application/json'}", "'http://192.168.1.100:8889/api/sysAlarmRecord/getAlarmRecordConditionPageList'" ]
+      }, {
+        "name" : "调用的函数：test_getHistoryAlarm",
+        "uid" : "c1a5977dc2e7408a",
+        "parentUid" : "d08c19453b44953c54206193ec4e5190",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617785535176,
+          "stop" : 1617785535193,
+          "duration" : 17
+        },
+        "flaky" : false,
+        "parameters" : [ "{'pageIndex': 1, 'pageSize': 18, 'alertLeves': ['一级', '二级'], 'cameraIds': [], 'algorithmIds': [], 'startTime': '', 'endTime': '', 'isOnline': True}", "200.0", "{'Content-Type': 'application/json'}", "'http://192.168.1.100:8889/api/sysAlarmRecord/getAlarmRecordConditionPageList'" ]
+      }, {
+        "name" : "调用的函数：test_getDayAlarm",
+        "uid" : "aee4cc88e5f8c398",
+        "parentUid" : "d08c19453b44953c54206193ec4e5190",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617785535549,
+          "stop" : 1617785535568,
+          "duration" : 19
+        },
+        "flaky" : false,
+        "parameters" : [ "{'pageIndex': 1, 'pageSize': 18, 'alertLeves': ['一级', '二级'], 'cameraIds': [], 'algorithmIds': [], 'startTime': '', 'endTime': '', 'isOnline': True}", "200.0", "{'Content-Type': 'application/json'}", "'http://192.168.1.100:8889/api/sysAlarmRecord/getAlarmRecordConditionPageList'" ]
+      } ],
+      "uid" : "d08c19453b44953c54206193ec4e5190"
+    } ],
+    "uid" : "c782aefd3c1412afd09a418d296b3b11"
+  } ]
+}

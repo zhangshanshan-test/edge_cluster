@@ -1,0 +1,89 @@
+{
+  "uid" : "beb16af0352f6f31",
+  "name" : "调用的函数：test_cameraCount",
+  "fullName" : "test_case.test_sysCount.TestSysCount#test_cameraCount",
+  "historyId" : "0e77a35657a8592dc39030e06efb7eee",
+  "time" : {
+    "start" : 1617785535661,
+    "stop" : 1617785535692,
+    "duration" : 31
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2015522c47129bcf",
+      "name" : "log",
+      "source" : "2015522c47129bcf.txt",
+      "type" : "text/plain",
+      "size" : 243
+    }, {
+      "uid" : "3412ffdad7422664",
+      "name" : "stdout",
+      "source" : "3412ffdad7422664.txt",
+      "type" : "text/plain",
+      "size" : 138
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "首页中各种统计接口"
+  }, {
+    "name" : "story",
+    "value" : "查找摄像头总数和在线摄像头总数"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_sysCount"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSysCount"
+  }, {
+    "name" : "host",
+    "value" : "test-yunhua"
+  }, {
+    "name" : "thread",
+    "value" : "8344-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_sysCount"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expResult",
+    "value" : "200.0"
+  }, {
+    "name" : "url",
+    "value" : "'http://192.168.1.100:8889/api/sysCamera/getSysCameraCount'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "beb16af0352f6f31.json",
+  "parameterValues" : [ "200.0", "'http://192.168.1.100:8889/api/sysCamera/getSysCameraCount'" ]
+}

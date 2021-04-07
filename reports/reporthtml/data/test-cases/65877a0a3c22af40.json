@@ -1,0 +1,113 @@
+{
+  "uid" : "65877a0a3c22af40",
+  "name" : "调用的函数：test_updateUser",
+  "fullName" : "test_case.test_sysUser.TestSysUser#test_updateUser",
+  "historyId" : "317df09d5836c8230e760fd32dec1f66",
+  "time" : {
+    "start" : 1617785536148,
+    "stop" : 1617785536215,
+    "duration" : 67
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "前置：新增一个名字不能重复的用户名",
+      "time" : {
+        "start" : 1617785536148,
+        "stop" : 1617785536183,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "18566100b9a7184f",
+      "name" : "log",
+      "source" : "18566100b9a7184f.txt",
+      "type" : "text/plain",
+      "size" : 454
+    }, {
+      "uid" : "73194dfc144c006e",
+      "name" : "stdout",
+      "source" : "73194dfc144c006e.txt",
+      "type" : "text/plain",
+      "size" : 333
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "用户管理接口"
+  }, {
+    "name" : "story",
+    "value" : "更新用户接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_sysUser"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSysUser"
+  }, {
+    "name" : "host",
+    "value" : "test-yunhua"
+  }, {
+    "name" : "thread",
+    "value" : "8344-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_sysUser"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "body",
+    "value" : "{'id': '95', 'userName': '123'}"
+  }, {
+    "name" : "expResult",
+    "value" : "200.0"
+  }, {
+    "name" : "header",
+    "value" : "{'Content-Type': 'application/json'}"
+  }, {
+    "name" : "relParam",
+    "value" : "'userName'"
+  }, {
+    "name" : "url",
+    "value" : "'http://192.168.1.100:8889/api/user/update'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "65877a0a3c22af40.json",
+  "parameterValues" : [ "{'id': '95', 'userName': '123'}", "200.0", "{'Content-Type': 'application/json'}", "'userName'", "'http://192.168.1.100:8889/api/user/update'" ]
+}

@@ -1,0 +1,89 @@
+{
+  "uid" : "1a254a6252902256",
+  "name" : "调用的函数：test_videoUpload",
+  "fullName" : "test_case.test_videAnalysis.TestVideoAnaly#test_videoUpload",
+  "historyId" : "8fde30898943a62cb601f715c3ceab93",
+  "time" : {
+    "start" : 1617785536346,
+    "stop" : 1617785536373,
+    "duration" : 27
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "db286d1be73061ea",
+      "name" : "log",
+      "source" : "db286d1be73061ea.txt",
+      "type" : "text/plain",
+      "size" : 223
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "上传视频的接口"
+  }, {
+    "name" : "feature",
+    "value" : "离线视频分析接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_videAnalysis"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestVideoAnaly"
+  }, {
+    "name" : "host",
+    "value" : "test-yunhua"
+  }, {
+    "name" : "thread",
+    "value" : "8344-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_videAnalysis"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "body",
+    "value" : "{'type': 'video'}"
+  }, {
+    "name" : "expResult",
+    "value" : "200.0"
+  }, {
+    "name" : "fileParam",
+    "value" : "{'file': \"('testJiTui', open('E:\\\\testJiTui.mp4', 'rb'), 'video/mp4')\"}"
+  }, {
+    "name" : "url",
+    "value" : "'http://192.168.1.100:8889/api/upload'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1a254a6252902256.json",
+  "parameterValues" : [ "{'type': 'video'}", "200.0", "{'file': \"('testJiTui', open('E:\\\\testJiTui.mp4', 'rb'), 'video/mp4')\"}", "'http://192.168.1.100:8889/api/upload'" ]
+}

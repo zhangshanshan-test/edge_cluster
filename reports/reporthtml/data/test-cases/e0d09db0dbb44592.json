@@ -1,0 +1,89 @@
+{
+  "uid" : "e0d09db0dbb44592",
+  "name" : "调用的函数：test_addUser",
+  "fullName" : "test_case.test_sysUser.TestSysUser#test_addUser",
+  "historyId" : "7cfc4f8953085c28c78b69a8b43fb024",
+  "time" : {
+    "start" : 1617785535854,
+    "stop" : 1617785535884,
+    "duration" : 30
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "47f5ad2bb92932f",
+      "name" : "log",
+      "source" : "47f5ad2bb92932f.txt",
+      "type" : "text/plain",
+      "size" : 225
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "用户管理接口"
+  }, {
+    "name" : "story",
+    "value" : "新增用户接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_sysUser"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSysUser"
+  }, {
+    "name" : "host",
+    "value" : "test-yunhua"
+  }, {
+    "name" : "thread",
+    "value" : "8344-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_sysUser"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "body",
+    "value" : "{'userName': 'test001号'}"
+  }, {
+    "name" : "expResult",
+    "value" : "200.0"
+  }, {
+    "name" : "header",
+    "value" : "{'Content-Type': 'application/json'}"
+  }, {
+    "name" : "url",
+    "value" : "'http://192.168.1.100:8889/api/user/add'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e0d09db0dbb44592.json",
+  "parameterValues" : [ "{'userName': 'test001号'}", "200.0", "{'Content-Type': 'application/json'}", "'http://192.168.1.100:8889/api/user/add'" ]
+}

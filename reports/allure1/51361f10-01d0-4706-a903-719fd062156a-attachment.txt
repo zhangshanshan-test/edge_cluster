@@ -1,0 +1,2 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:227 Starting new HTTP connection (1): 192.168.1.100:8889
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://192.168.1.100:8889 "POST /api/user/remove/369 HTTP/1.1" 200 None

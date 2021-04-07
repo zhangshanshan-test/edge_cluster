@@ -1,0 +1,92 @@
+{
+  "uid" : "4d4242b9def228c5",
+  "name" : "调用的函数：test_updateUser",
+  "fullName" : "test_case.test_sysUser.TestSysUser#test_updateUser",
+  "historyId" : "80cc6dc0027c1875384c32b3cff9be40",
+  "time" : {
+    "start" : 1617785536321,
+    "stop" : 1617785536339,
+    "duration" : 18
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f0a404b02434109d",
+      "name" : "log",
+      "source" : "f0a404b02434109d.txt",
+      "type" : "text/plain",
+      "size" : 228
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "用户管理接口"
+  }, {
+    "name" : "story",
+    "value" : "更新用户接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_sysUser"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSysUser"
+  }, {
+    "name" : "host",
+    "value" : "test-yunhua"
+  }, {
+    "name" : "thread",
+    "value" : "8344-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_sysUser"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "body",
+    "value" : "{'id': '0', 'userName': '11', 'address': 'test000', 'status': 4}"
+  }, {
+    "name" : "expResult",
+    "value" : "200.0"
+  }, {
+    "name" : "header",
+    "value" : "{'Content-Type': 'application/json'}"
+  }, {
+    "name" : "relParam",
+    "value" : "'id'"
+  }, {
+    "name" : "url",
+    "value" : "'http://192.168.1.100:8889/api/user/update'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4d4242b9def228c5.json",
+  "parameterValues" : [ "{'id': '0', 'userName': '11', 'address': 'test000', 'status': 4}", "200.0", "{'Content-Type': 'application/json'}", "'id'", "'http://192.168.1.100:8889/api/user/update'" ]
+}

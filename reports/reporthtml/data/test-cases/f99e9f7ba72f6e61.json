@@ -1,0 +1,95 @@
+{
+  "uid" : "f99e9f7ba72f6e61",
+  "name" : "调用的函数：test_delUser",
+  "fullName" : "test_case.test_sysUser.TestSysUser#test_delUser",
+  "historyId" : "6b71785c5999ef564de3672a3fff8ed6",
+  "time" : {
+    "start" : 1617785535986,
+    "stop" : 1617785536027,
+    "duration" : 41
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4a9328cc5fd5ef22",
+      "name" : "log",
+      "source" : "4a9328cc5fd5ef22.txt",
+      "type" : "text/plain",
+      "size" : 232
+    }, {
+      "uid" : "6c70e58541e7269a",
+      "name" : "stdout",
+      "source" : "6c70e58541e7269a.txt",
+      "type" : "text/plain",
+      "size" : 99
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "用户管理接口"
+  }, {
+    "name" : "story",
+    "value" : "删除用户接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_sysUser"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSysUser"
+  }, {
+    "name" : "host",
+    "value" : "test-yunhua"
+  }, {
+    "name" : "thread",
+    "value" : "8344-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_sysUser"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "body",
+    "value" : "{}"
+  }, {
+    "name" : "expResult",
+    "value" : "200.0"
+  }, {
+    "name" : "header",
+    "value" : "{'Content-Type': 'application/json'}"
+  }, {
+    "name" : "url",
+    "value" : "'http://192.168.1.100:8889/api/user/remove/'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f99e9f7ba72f6e61.json",
+  "parameterValues" : [ "{}", "200.0", "{'Content-Type': 'application/json'}", "'http://192.168.1.100:8889/api/user/remove/'" ]
+}

@@ -1,0 +1,391 @@
+[ {
+  "uid" : "a4dccfe9746d9c42",
+  "name" : "调用的函数：test_getDayAlarm",
+  "time" : {
+    "start" : 1617785535585,
+    "stop" : 1617785535602,
+    "duration" : 17
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b40b1331bed77fb4",
+  "name" : "调用的函数：test_getHistoryAlarm",
+  "time" : {
+    "start" : 1617785535201,
+    "stop" : 1617785535215,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "390d06c6674e8f72",
+  "name" : "调用的函数：test_getUserList",
+  "time" : {
+    "start" : 1617785535890,
+    "stop" : 1617785535908,
+    "duration" : 18
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7a72b81d67a5cb75",
+  "name" : "调用的函数：test_getHistoryAlarm",
+  "time" : {
+    "start" : 1617785534923,
+    "stop" : 1617785534947,
+    "duration" : 24
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f99e9f7ba72f6e61",
+  "name" : "调用的函数：test_delUser",
+  "time" : {
+    "start" : 1617785535986,
+    "stop" : 1617785536027,
+    "duration" : 41
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "beb16af0352f6f31",
+  "name" : "调用的函数：test_cameraCount",
+  "time" : {
+    "start" : 1617785535661,
+    "stop" : 1617785535692,
+    "duration" : 31
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5627828963160d4f",
+  "name" : "调用的函数：test_addUser",
+  "time" : {
+    "start" : 1617785535816,
+    "stop" : 1617785535848,
+    "duration" : 32
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "638eec372654856",
+  "name" : "调用的函数：test_getDayAlarm",
+  "time" : {
+    "start" : 1617785535320,
+    "stop" : 1617785535346,
+    "duration" : 26
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3e00cf1884fc6478",
+  "name" : "调用的函数：test_getHistoryAlarm",
+  "time" : {
+    "start" : 1617785534976,
+    "stop" : 1617785534991,
+    "duration" : 15
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "26edaec5cbfe7cc0",
+  "name" : "调用的函数：test_addUser",
+  "time" : {
+    "start" : 1617785535781,
+    "stop" : 1617785535810,
+    "duration" : 29
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f47235a824ff9d30",
+  "name" : "调用的函数：test_getHistoryAlarm",
+  "time" : {
+    "start" : 1617785535021,
+    "stop" : 1617785535075,
+    "duration" : 54
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2940a8b7c2b14db3",
+  "name" : "调用的函数：test_getDayAlarm",
+  "time" : {
+    "start" : 1617785535501,
+    "stop" : 1617785535543,
+    "duration" : 42
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7330ea6cc6251b77",
+  "name" : "调用的函数：test_getHistoryAlarm",
+  "time" : {
+    "start" : 1617785535221,
+    "stop" : 1617785535241,
+    "duration" : 20
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5dc460d1ef1be696",
+  "name" : "调用的函数：test_getUserList",
+  "time" : {
+    "start" : 1617785535915,
+    "stop" : 1617785535928,
+    "duration" : 13
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b497d1a8d57cf9ea",
+  "name" : "调用的函数：test_getDayAlarm",
+  "time" : {
+    "start" : 1617785535378,
+    "stop" : 1617785535395,
+    "duration" : 17
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3fcc3211900db101",
+  "name" : "调用的函数：test_cameraDayCount",
+  "time" : {
+    "start" : 1617785535715,
+    "stop" : 1617785535727,
+    "duration" : 12
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "91400b593ae88277",
+  "name" : "调用的函数：test_getHistoryAlarm",
+  "time" : {
+    "start" : 1617785534954,
+    "stop" : 1617785534970,
+    "duration" : 16
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "68f6a18b15511767",
+  "name" : "调用的函数：test_addUser",
+  "time" : {
+    "start" : 1617785535751,
+    "stop" : 1617785535775,
+    "duration" : 24
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c5bde392947231e1",
+  "name" : "调用的函数：test_getHistoryAlarm",
+  "time" : {
+    "start" : 1617785534873,
+    "stop" : 1617785534916,
+    "duration" : 43
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5e5d4201c28a7945",
+  "name" : "调用的函数：test_getUserList",
+  "time" : {
+    "start" : 1617785535934,
+    "stop" : 1617785535948,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d8ea15fee616decb",
+  "name" : "调用的函数：test_edgeCount",
+  "time" : {
+    "start" : 1617785535698,
+    "stop" : 1617785535710,
+    "duration" : 12
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "30f453524bbcc34d",
+  "name" : "调用的函数：test_updateUser",
+  "time" : {
+    "start" : 1617785536063,
+    "stop" : 1617785536140,
+    "duration" : 77
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d973ec3e023a2600",
+  "name" : "调用的函数：test_getUserList",
+  "time" : {
+    "start" : 1617785535954,
+    "stop" : 1617785535980,
+    "duration" : 26
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1a254a6252902256",
+  "name" : "调用的函数：test_videoUpload",
+  "time" : {
+    "start" : 1617785536346,
+    "stop" : 1617785536373,
+    "duration" : 27
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6a416e470e5d46f3",
+  "name" : "调用的函数：test_delUser",
+  "time" : {
+    "start" : 1617785536034,
+    "stop" : 1617785536056,
+    "duration" : 22
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "62da14bb1ffdeaa1",
+  "name" : "调用的函数：test_getDayAlarm",
+  "time" : {
+    "start" : 1617785535609,
+    "stop" : 1617785535655,
+    "duration" : 46
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4d4242b9def228c5",
+  "name" : "调用的函数：test_updateUser",
+  "time" : {
+    "start" : 1617785536321,
+    "stop" : 1617785536339,
+    "duration" : 18
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e5d3cd6d2f4b430d",
+  "name" : "调用的函数：test_getDayAlarm",
+  "time" : {
+    "start" : 1617785535248,
+    "stop" : 1617785535314,
+    "duration" : 66
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c7d2d76935562dac",
+  "name" : "调用的函数：test_updateUser",
+  "time" : {
+    "start" : 1617785536223,
+    "stop" : 1617785536313,
+    "duration" : 90
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "65877a0a3c22af40",
+  "name" : "调用的函数：test_updateUser",
+  "time" : {
+    "start" : 1617785536148,
+    "stop" : 1617785536215,
+    "duration" : 67
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "49ce5a82d576c926",
+  "name" : "调用的函数：test_getDayAlarm",
+  "time" : {
+    "start" : 1617785535352,
+    "stop" : 1617785535371,
+    "duration" : 19
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ad407f713aadf6b3",
+  "name" : "调用的函数：test_getHistoryAlarm",
+  "time" : {
+    "start" : 1617785535082,
+    "stop" : 1617785535168,
+    "duration" : 86
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c8dc1eec37caaab0",
+  "name" : "调用的函数：test_alarmDayCount",
+  "time" : {
+    "start" : 1617785535733,
+    "stop" : 1617785535745,
+    "duration" : 12
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b14657ef4111c4ef",
+  "name" : "调用的函数：test_getDayAlarm",
+  "time" : {
+    "start" : 1617785535434,
+    "stop" : 1617785535494,
+    "duration" : 60
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e0d09db0dbb44592",
+  "name" : "调用的函数：test_addUser",
+  "time" : {
+    "start" : 1617785535854,
+    "stop" : 1617785535884,
+    "duration" : 30
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "98b332d63a7cd136",
+  "name" : "调用的函数：test_getHistoryAlarm",
+  "time" : {
+    "start" : 1617785534998,
+    "stop" : 1617785535015,
+    "duration" : 17
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ed0a98991bcc4341",
+  "name" : "调用的函数：test_getDayAlarm",
+  "time" : {
+    "start" : 1617785535402,
+    "stop" : 1617785535427,
+    "duration" : 25
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c1a5977dc2e7408a",
+  "name" : "调用的函数：test_getHistoryAlarm",
+  "time" : {
+    "start" : 1617785535176,
+    "stop" : 1617785535193,
+    "duration" : 17
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aee4cc88e5f8c398",
+  "name" : "调用的函数：test_getDayAlarm",
+  "time" : {
+    "start" : 1617785535549,
+    "stop" : 1617785535568,
+    "duration" : 19
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,4 @@
+读取标excel表中的list格式数据： [('http://192.168.1.100:8889/api/user/add', {'Content-Type': 'application/json'}, {'userName': 'test', 'address': 'test备注', 'status': 1}, 200.0)]
+前置的获取随机用户名：---- 用户名70688810
+前置：新增用户成功
+前置的获取随机用户名：---- 用户名16203486

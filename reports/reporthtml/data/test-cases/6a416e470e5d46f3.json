@@ -1,0 +1,89 @@
+{
+  "uid" : "6a416e470e5d46f3",
+  "name" : "调用的函数：test_delUser",
+  "fullName" : "test_case.test_sysUser.TestSysUser#test_delUser",
+  "historyId" : "7538deb03336412732417fd530be9e6a",
+  "time" : {
+    "start" : 1617785536034,
+    "stop" : 1617785536056,
+    "duration" : 22
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f75dbe046944c208",
+      "name" : "log",
+      "source" : "f75dbe046944c208.txt",
+      "type" : "text/plain",
+      "size" : 237
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "用户管理接口"
+  }, {
+    "name" : "story",
+    "value" : "删除用户接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_sysUser"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSysUser"
+  }, {
+    "name" : "host",
+    "value" : "test-yunhua"
+  }, {
+    "name" : "thread",
+    "value" : "8344-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_sysUser"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "body",
+    "value" : "{}"
+  }, {
+    "name" : "expResult",
+    "value" : "200.0"
+  }, {
+    "name" : "header",
+    "value" : "{'Content-Type': 'application/json'}"
+  }, {
+    "name" : "url",
+    "value" : "'http://192.168.1.100:8889/api/user/remove/99999999'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6a416e470e5d46f3.json",
+  "parameterValues" : [ "{}", "200.0", "{'Content-Type': 'application/json'}", "'http://192.168.1.100:8889/api/user/remove/99999999'" ]
+}

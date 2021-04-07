@@ -1,0 +1,89 @@
+{
+  "uid" : "d8ea15fee616decb",
+  "name" : "调用的函数：test_edgeCount",
+  "fullName" : "test_case.test_sysCount.TestSysCount#test_edgeCount",
+  "historyId" : "bc16a9d47bb32e6fa161d024f588430d",
+  "time" : {
+    "start" : 1617785535698,
+    "stop" : 1617785535710,
+    "duration" : 12
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6a474e05dd1f42fd",
+      "name" : "log",
+      "source" : "6a474e05dd1f42fd.txt",
+      "type" : "text/plain",
+      "size" : 239
+    }, {
+      "uid" : "f29bece1fa12f5a",
+      "name" : "stdout",
+      "source" : "f29bece1fa12f5a.txt",
+      "type" : "text/plain",
+      "size" : 137
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "首页中各种统计接口"
+  }, {
+    "name" : "story",
+    "value" : "查找盒子数量和在线数量"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_sysCount"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSysCount"
+  }, {
+    "name" : "host",
+    "value" : "test-yunhua"
+  }, {
+    "name" : "thread",
+    "value" : "8344-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_sysCount"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expResult",
+    "value" : "200.0"
+  }, {
+    "name" : "url",
+    "value" : "'http://192.168.1.100:8889/api/sysEdge/getSysEdgeCount'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d8ea15fee616decb.json",
+  "parameterValues" : [ "200.0", "'http://192.168.1.100:8889/api/sysEdge/getSysEdgeCount'" ]
+}

@@ -1,0 +1,2 @@
+返回的id的类型是：： <class 'int'>
+url33--- http://192.168.1.100:8889/api/user/remove/369

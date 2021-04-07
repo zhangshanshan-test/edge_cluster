@@ -1,0 +1,89 @@
+{
+  "uid" : "d973ec3e023a2600",
+  "name" : "调用的函数：test_getUserList",
+  "fullName" : "test_case.test_sysUser.TestSysUser#test_getUserList",
+  "historyId" : "6d6cbb3a32d2f499aacb671ff5891fce",
+  "time" : {
+    "start" : 1617785535954,
+    "stop" : 1617785535980,
+    "duration" : 26
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2a47dcacadaa0d54",
+      "name" : "log",
+      "source" : "2a47dcacadaa0d54.txt",
+      "type" : "text/plain",
+      "size" : 226
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "用户管理接口"
+  }, {
+    "name" : "story",
+    "value" : "获取用户列表接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_sysUser"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSysUser"
+  }, {
+    "name" : "host",
+    "value" : "test-yunhua"
+  }, {
+    "name" : "thread",
+    "value" : "8344-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_sysUser"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "body",
+    "value" : "{'pageIndex': '', 'pageSize': ''}"
+  }, {
+    "name" : "expResult",
+    "value" : "200.0"
+  }, {
+    "name" : "header",
+    "value" : "{'Content-Type': 'application/json'}"
+  }, {
+    "name" : "url",
+    "value" : "'http://192.168.1.100:8889/api/user/list'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d973ec3e023a2600.json",
+  "parameterValues" : [ "{'pageIndex': '', 'pageSize': ''}", "200.0", "{'Content-Type': 'application/json'}", "'http://192.168.1.100:8889/api/user/list'" ]
+}
